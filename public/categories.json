@@ -1,34 +1,44 @@
 [
     {
-        "id": "0",
-        "name": "All News"
+      "id": 1,
+      "image": "https://i.ibb.co/5TZLq4x/toa-heftiba-TVQFl9-R-MLQ-unsplash.jpg",
+      "name": "Birth Day",
+      "description": "Join us for a glamorous evening filled with music, dance, and fine dining.",
+      "price": 75.99
     },
     {
-        "id": "1",
-        "name": "Breaking News"
+      "id": 2,
+      "image": "https://i.ibb.co/cbF3w6Q/mitchell-lawler-tbaory-Uol-E-unsplash.jpg",
+      "name": "Summer Beach Party",
+      "description": "Experience the ultimate beach party with live music, games, and delicious food.",
+      "price": 45.50
     },
     {
-        "id": "2",
-        "name": "Regular News"
+      "id": 3,
+      "image": "https://i.ibb.co/fpQFkgZ/alvaro-cvg-m-W8-IZd-X7n8-E-unsplash.jpg",
+      "name": "Party",
+      "description": "Connect with industry leaders and expand your professional network.",
+      "price": 30.00
     },
     {
-        "id": "3",
-        "name": "International News"
+      "id": 4,
+      "image": "https://i.ibb.co/qss4KhF/handheld.jpg",
+      "name": "Wedding Extravaganza",
+      "description": "Celebrate love and unity with our exquisite wedding event.",
+      "price": 120.99
     },
     {
-        "id": "4",
-        "name": "Sports"
+      "id": 5,
+      "image": "https://i.ibb.co/5TZLq4x/toa-heftiba-TVQFl9-R-MLQ-unsplash.jpg",
+      "name": "Anniversaries",
+      "description": "Support a noble cause while enjoying a glamorous evening of philanthropy.",
+      "price": 55.00
     },
     {
-        "id": "5",
-        "name": "Entertainment"
-    },
-    {
-        "id": "6",
-        "name": "Culture"
-    },
-    {
-        "id": "7",
-        "name": "Arts"
-    }
-]
+        "id": 6,
+        "image": "https://i.ibb.co/qss4KhF/handheld.jpg",
+        "name": "Retirement Parties",
+        "description": "Support a noble cause while enjoying a glamorous evening of philanthropy.",
+        "price": 55.00
+      }
+  ]

@@ -3,13 +3,13 @@
 const Banner = () => {
     return (
         <div>
-            <div className="hero min-h-[50vh] min-w-full" style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
-                <div className="hero-overlay bg-opacity-60"></div>
-                <div className="hero-content text-center text-neutral-content">
+            <div className="hero min-h-[92vh] min-w-full" style={{ backgroundImage: 'url(https://i.ibb.co/x1vSR2p/chuttersnap-a-En-H4h-J-Mrs-unsplash.jpg)' }}>
+                <div className="hero-overlay bg-opacity-50"></div>
+                <div className="hero-content text-center text-neutral-content ">
                     <div className="max-w-lg">
-                        <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                        <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className="btn btn-primary">Get Started</button>
+                        <h1 className="mb-5 text-5xl font-bold text-neutral-50">EVENTRO</h1>
+                        <p className="mb-5 text-neutral-50 text-2xl">Meke Your Beautiful Moments More Beautiful With Us!</p>
+                        <button className="btn btn-primary">Contact Us</button>
                     </div>
                 </div>
             </div>

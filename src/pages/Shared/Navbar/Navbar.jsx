@@ -15,23 +15,15 @@ const Navbar = () => {
     const navLinks = <>
         <li className="mx-10"><NavLink to="/">Home</NavLink></li>
         <li className="mx-10"><NavLink to="/about">About</NavLink></li>
-        <li className="mx-10"><NavLink to="/career">Career</NavLink></li>
-        <li className="mx-10"><NavLink to="/addict">Addict</NavLink></li>
-        {
-            user ?
-                <li><button onClick={handleSignOut}>Sign Out</button></li>
-                :
-                <Link to="/login">
-                    <li><NavLink to="/login">Login</NavLink></li>
-                </Link>
-        }
+        <li className="mx-10"><NavLink to="/services">Services</NavLink></li>
+        {/* <li className="mx-10"><NavLink to="/addict">Addict</NavLink></li> */}
+
     </>
 
     return (
-        <div className="navbar max-w-7xl mx-auto ">
+        <div className="navbar max-w-7xl mx-auto items-center font-semibold">
             <div className="navbar-start">
-                <div className="dropdown">
-                </div>
+                Eventro
 
             </div>
             <div className="navbar-center flex">
@@ -40,6 +32,14 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
+                <ul className="menu menu-horizontal px-5">
+                    {
+                        user ?
+                            <li><button onClick={handleSignOut}>Sign Out</button></li>
+                            :
+                            <li><NavLink to="/login">Login</NavLink></li>
+                    }
+                </ul>
             </div>
         </div>
     );
