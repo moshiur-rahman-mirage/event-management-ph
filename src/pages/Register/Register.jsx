@@ -3,7 +3,8 @@ import Navbar from '../Shared/Navbar/Navbar';
 import { useContext } from 'react';
 import { AuthContext } from '../../providers/AuthProvider';
 import Footer from '../../Component/Footer/Footer';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Register = () => {
@@ -22,27 +23,24 @@ const Register = () => {
         // create user
         createUser(email, password)
             .then(result => {
-                console.log(result.user)
+                toast.success('Registration Successful!');
+                
             })
             .catch(error => {
-                console.error(error)
+                toast.error('Please check Credential!');
             })
 
     }
 
     return (
-        <div className=' md:h-screen'>
-             <div className="bg-tea-green min-h-[8vh]">
+        <div className='max-h-[100vh]'>
+             <div className="bg-littledark sticky top-0 z-10">
             <Navbar></Navbar>
             </div>
-            <section className="bg-gray-50 dark:bg-gray-900">
+            <section className=" flex justify-center items-center min-h-[68vh] bg-gray-50 dark:bg-gray-900">
                 <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-0">
-                    <a href="#" className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
-                        <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-                            {brand}
-                        </h1>
-                    </a>
-                    <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+  
+                    <div className=" bg-flax  w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
                         <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
                             <h1 style={{textAlign:`${user}`?'left':'right'}} className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
                                 {
@@ -77,6 +75,7 @@ const Register = () => {
 
             </section>
             <Footer/>
+            <ToastContainer/>
         </div>
     );
 };

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Basic Package",
+        "description": "An affordable option for small social events and gatherings.",
+        "price": "$299",
+        "features": [
+            "Event Planning Assistance",
+            "Up to 50 Guests",
+            "Venue Booking Support",
+            "Basic Decorations"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Premium Package",
+        "description": "Perfect for medium-sized social events with added features.",
+        "price": "$599",
+        "features": [
+            "Event Planning Assistance",
+            "Up to 150 Guests",
+            "Venue Booking Support",
+            "Custom Decorations",
+            "Live Entertainment",
+            "Catering Services"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "VIP Package",
+        "description": "For extravagant and large-scale social events with all-inclusive services.",
+        "price": "$1499",
+        "features": [
+            "Event Planning Assistance",
+            "Unlimited Guests",
+            "Premium Venue Booking Support",
+            "Luxury Decorations",
+            "Live Entertainment",
+            "Gourmet Catering",
+            "Dedicated Event Coordinator",
+            "VIP Lounge Access"
+        ]
+    }
+]

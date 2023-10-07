@@ -7,8 +7,9 @@ export default {
   theme: {
     extend: {},
     colors:{
-      'tea-green': '#D4E6B5',
+      'tea-green': '#f6faf0',
       'olivine': '#AFC97E',
+      'littledark': '#d4e6b5',
       'flax': '#E2D686',
       'naples-yellow': '#FFDF64',
       'shipgray': '#877B66',

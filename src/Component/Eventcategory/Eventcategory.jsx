@@ -16,8 +16,8 @@ const Eventcategory = () => {
     return (
         <div className='min-h-[50vh]  max-w-7xl mx-auto'>
           
-            <h2 className="text-4xl py-10 my-auto text-center">All Services</h2>
-            <div className='grid gap-5 grid-cols-3'>
+            <h2 className="md:text-4xl  text-3xl md:py-10 mx-auto  text-center">All Services</h2>
+            <div className='grid gap-5 grid-cols-1 md:grid-cols-3'>
             {
                categories.map((acategory)=>{
                 return(

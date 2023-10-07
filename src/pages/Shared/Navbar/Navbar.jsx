@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { AuthContext } from "../../../providers/AuthProvider";
 
 const Navbar = () => {
-    const { user, logOut } = useContext(AuthContext);
+    const { user, logOut,brand } = useContext(AuthContext);
 
     const handleSignOut = () => {
         logOut()
@@ -21,9 +21,10 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar max-w-7xl mx-auto items-center font-semibold">
+        <div className=" min-h-[8vh] navbar max-w-7xl mx-auto items-center font-semibold bg-littledark sticky top-0 z-10">
             <div className="navbar-start">
-                Eventro
+                <NavLink to="/">  {brand}</NavLink>
+              
 
             </div>
             <div className="navbar-center flex">

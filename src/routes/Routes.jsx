@@ -5,11 +5,14 @@ import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import PrivateRoute from "./PrivateRoute";
 import Categorydetails from "../Component/Categorydetails/Categorydetails";
+import ErrorPage from "../Errorpage";
+import Plan from "../Component/Plan/Plan";
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <Root></Root>, 
+          errorElement: <ErrorPage/>,
         children: [
             {
                 path: '/',
@@ -19,6 +22,10 @@ const router = createBrowserRouter([
             {
                 path: '/category/:id', 
                 element: <PrivateRoute><Categorydetails/></PrivateRoute>
+            },
+            {
+                path: '/plan/:id', 
+                element: <PrivateRoute><Plan/></PrivateRoute>
             },
             {
                 path: '/login',

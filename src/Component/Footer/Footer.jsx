@@ -5,8 +5,8 @@ const Footer = () => {
 
   const { brand } = useContext(AuthContext);
     return (
-        <div>
-            <footer className="footer footer-center p-10 bg-tea-green text-base-content rounded">
+        <div className='min-h-[10vh]'>
+            <footer className="footer footer-center p-10 bg-littledark text-base-content rounded">
   <nav className="grid grid-flow-col gap-4">
     <a className="link link-hover">About us</a> 
     <a className="link link-hover">Contact</a> 
