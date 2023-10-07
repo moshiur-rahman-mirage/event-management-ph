@@ -23,7 +23,7 @@ const Login = () => {
             .then(result => {
                 console.log(result.user);
 
-                // navigate after login
+                toast.success('Logged In Successfully!');
                 navigate(location?.state ? location.state : '/');
 
             })

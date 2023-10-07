@@ -31,7 +31,7 @@ const Home = () => {
             <div>
 
             </div>
-            <div className="max-w-7xl mx-auto">
+            <div className=" max-w-7xl mx-auto py-10">
             <Carousell/>
             </div>
 
