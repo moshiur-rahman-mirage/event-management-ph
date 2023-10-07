@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { AuthContext } from '../../providers/AuthProvider';
 
 const Footer = () => {
+
+  const { brand } = useContext(AuthContext);
     return (
         <div>
             <footer className="footer footer-center p-10 bg-tea-green text-base-content rounded">
@@ -18,7 +21,7 @@ const Footer = () => {
     </div>
   </nav> 
   <aside>
-    <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+    <p>Copyright © 2023 - All right reserved by {brand}</p>
   </aside>
 </footer>
         </div>
