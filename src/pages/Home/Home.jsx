@@ -27,7 +27,7 @@ const Home = () => {
             <Eventcategory/>
             </div>
             
-            <Featuredevent/>
+            {/* <Featuredevent/> */}
             <div>
 
             </div>

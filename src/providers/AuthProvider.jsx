@@ -9,8 +9,8 @@ const auth = getAuth(app);
 const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
     const [loading, setLoading] = useState(true);
-    const brand='EVENTPRO'
-    const createUser = (email, password) => {
+    const brand = 'EVENTPRO'
+    const createUser = (email, password,name,photo) => {
         setLoading(true);
         return createUserWithEmailAndPassword(auth, email, password);
     }
@@ -25,6 +25,8 @@ const AuthProvider = ({ children }) => {
         return signOut(auth);
     }
 
+
+
     useEffect(() => {
         const unSubscribe = onAuthStateChanged(auth, currentUser => {
             console.log('user in the auth state changed', currentUser);
@@ -35,6 +37,15 @@ const AuthProvider = ({ children }) => {
             unSubscribe();
         }
     }, [])
+
+
+
+
+
+
+
+
+
 
     const authInfo = {
         user,
