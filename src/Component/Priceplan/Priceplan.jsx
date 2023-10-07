@@ -5,10 +5,10 @@ const Priceplan = () => {
 
     const [plans, setPlans] = useState([])
     useEffect(() => {
-        fetch('priceplan.json')
+        fetch('./priceplan.json')
             .then(res => res.json())
-            .then(data => setPlans(data))
-        // .then(data=>console.log(data))
+             .then(data => setPlans(data))
+        //  .then(data=>console.log(data))
     }, [])
 
     return (

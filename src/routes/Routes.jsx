@@ -6,7 +6,6 @@ import Register from "../pages/Register/Register";
 import PrivateRoute from "./PrivateRoute";
 import Categorydetails from "../Component/Categorydetails/Categorydetails";
 import ErrorPage from "../Errorpage";
-import Plan from "../Component/Plan/Plan";
 
 const router = createBrowserRouter([
     {
@@ -22,10 +21,6 @@ const router = createBrowserRouter([
             {
                 path: '/category/:id', 
                 element: <PrivateRoute><Categorydetails/></PrivateRoute>
-            },
-            {
-                path: '/plan/:id', 
-                element: <PrivateRoute><Plan/></PrivateRoute>
             },
             {
                 path: '/login',
