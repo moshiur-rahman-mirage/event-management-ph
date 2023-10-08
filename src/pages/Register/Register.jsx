@@ -10,6 +10,7 @@ import { updateProfile } from 'firebase/auth';
 
 const Register = () => {
     const { createUser,user,brand,logOut } = useContext(AuthContext);
+    
     const handleRegister = e => {
         e.preventDefault();
         console.log(e.currentTarget);
@@ -19,8 +20,34 @@ const Register = () => {
         const photo = form.get('photo');
         const email = form.get('email');
         const password = form.get('password');
+       
+        const isLengthValid = password.length >= 6;
+        const hasUpperCase = /[A-Z]/.test(password);
+        const hasLowerCase = /[a-z]/.test(password);
+        const hasNumber = /\d/.test(password);
+        const hasSpecial = /(?=.*?[!@#\$&*~])/.test(password);
+
+        
+        if(!isLengthValid){
+            toast.error('Password Length Must be 6 character long!');
+        }
+        if(!hasUpperCase){
+            toast.error('Password must have an upper case character!');
+        }
+        if(!hasLowerCase){
+            toast.error('Password must have a lower case character!');
+        }
+        if(!hasNumber){
+            toast.error('Password must have a number!');
+        }
+        if(!hasSpecial){
+            toast.error('Password must have a special character!');
+        }
+        else{
+        
 
 
+       
         createUser(email, password,name,photo)
             .then(result => {
                 updateProfile(result.user, {
@@ -34,6 +61,7 @@ const Register = () => {
             });
 
     }
+}
 
     return (
         <div className='max-h-[100vh]'>
