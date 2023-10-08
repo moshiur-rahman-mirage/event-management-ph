@@ -6,6 +6,7 @@ import Register from "../pages/Register/Register";
 import PrivateRoute from "./PrivateRoute";
 import Categorydetails from "../Component/Categorydetails/Categorydetails";
 import ErrorPage from "../Errorpage";
+import About from "../Component/About/About";
 
 const router = createBrowserRouter([
     {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
             {
                 path: '/register',
                 element: <Register></Register>
+            },
+            {
+                path:'/about',
+                element:<About/>
             }
         ]
     }    

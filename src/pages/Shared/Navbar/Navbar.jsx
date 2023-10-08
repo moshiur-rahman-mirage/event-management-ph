@@ -19,7 +19,7 @@ const Navbar = () => {
 
 
     return (
-        <div className=" min-h-[8vh] navbar max-w-7xl mx-auto items-center font-semibold  sticky top-0 z-10">
+        <div className=" min-h-[8vh] navbar max-w-7xl mx-auto md:items-center font-semibold  sticky top-0 z-10">
             <div className="navbar-start">
                 <NavLink to="/">  {brand}</NavLink>
 
