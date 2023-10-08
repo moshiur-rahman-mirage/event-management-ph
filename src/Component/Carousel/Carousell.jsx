@@ -15,7 +15,9 @@ function Carousell() {
     
   };
   return (
-    <div>
+    <div className="flex flex-col ">
+
+      <h2 className="text-3xl font-bold py-5 mb-5 mx-auto">Recent Events</h2>
       
       <Slider {...settings}>
         <div className="row">
@@ -23,7 +25,9 @@ function Carousell() {
             src="https://i.ibb.co/qss4KhF/handheld.jpg"
             className="slide_img col-lg-12"
             alt="Responsive img"
+            
           />
+        
           
         </div>
         <div>
