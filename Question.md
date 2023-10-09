@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### Answer: ? B
 
-<i>Write your explanation here</i>
+<i></i>
 
 </p> wrong variable called.
 </details>
@@ -45,7 +45,7 @@ sum(1, "2");
 
 #### Answer: ? C
 
-<i>Write your explanation here</i>
+<i></i>
     javascript will sum number as long as it doesn't encounter string. after it encounter string javascript will concat instead  of sum.
 </p>
 </details>
@@ -71,7 +71,7 @@ console.log(food);
 
 #### Answer: ? A
 
-<i>Write your explanation here</i>
+<i></i>
 
 </p>Array was not changed because it was destructured
 </details>
@@ -92,11 +92,11 @@ console.log(sayHi());
 - D: `ReferenceError`
 
 <details><summary><b>Answer</b></summary>
-<p> B
+<p> 
 
-#### Answer: ?
+#### Answer: ? B
 
-<i>Write your explanation here</i>
+<i></i>
 
 </p> undeclared and unpassed variable is always undefined if not set any default value.
 </details>
@@ -124,7 +124,7 @@ console.log(count);
 
 #### Answer: ? C
 
-<i>Write your explanation here</i>
+<i></i>
 
 </p> Answer is C , because 0 is false as boolean.
 </details>
