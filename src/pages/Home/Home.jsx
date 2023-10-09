@@ -8,6 +8,8 @@ import Carousell from "../../Component/Carousel/Carousell";
 import Eventcategory from "../../Component/Eventcategory/Eventcategory";
 import Featuredevent from "../../Component/Featuredevent/Featuredevent";
 import Priceplan from "../../Component/Priceplan/Priceplan";
+import Contacts from "../../Component/Contacts/Contacts";
+import Contacthome from "../../Component/Contacts/Contacthome";
 
 
 
@@ -39,11 +41,14 @@ const Home = () => {
             <div className="max-w-7xl mx-auto bg-tea-green">
                 <Priceplan/>
             </div>
+
+            <div className="max-w-7xl mx-auto bg-tea-green">
+                <Contacthome/>
+            </div>
             
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             </div>
-            {/* <Carousell/> */}
             <Footer/>
         </div>
     );

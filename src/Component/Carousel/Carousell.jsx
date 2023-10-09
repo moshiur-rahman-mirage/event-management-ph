@@ -23,7 +23,7 @@ function Carousell() {
         <div className="row">
           <img
             src="https://i.ibb.co/fpQFkgZ/alvaro-cvg-m-W8-IZd-X7n8-E-unsplash.jpg"
-            className="slide_img col-lg-12"
+            className="slide_img lg:max-w-full md:max-w-6xl"
             alt="Responsive img"
             
           />
@@ -33,7 +33,7 @@ function Carousell() {
         <div>
           <img
               src="https://i.ibb.co/5TZLq4x/toa-heftiba-TVQFl9-R-MLQ-unsplash.jpg"
-            className="slide_img col-lg-12"
+              className="slide_img lg:max-w-full md:max-w-6xl"
             alt="Responsive img"
           />
           
@@ -41,7 +41,7 @@ function Carousell() {
         <div>
           <img
               src="https://i.ibb.co/5TZLq4x/toa-heftiba-TVQFl9-R-MLQ-unsplash.jpg"
-            className="slide_img col-lg-12"
+              className="slide_img lg:max-w-full md:max-w-6xl"
             alt="Responsive img"
           />
           
