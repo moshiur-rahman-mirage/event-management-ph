@@ -7,6 +7,7 @@ import PrivateRoute from "./PrivateRoute";
 import Categorydetails from "../Component/Categorydetails/Categorydetails";
 import ErrorPage from "../Errorpage";
 import About from "../Component/About/About";
+import Contacts from "../Component/Contacts/Contacts";
 
 const router = createBrowserRouter([
     {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
             {
                 path:'/about',
                 element:<About/>
+            },
+            {
+                path:'/contact',
+                element:<Contacts/>
             }
         ]
     }    

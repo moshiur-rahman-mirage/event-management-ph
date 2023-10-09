@@ -22,7 +22,7 @@ function Carousell() {
       <Slider {...settings}>
         <div className="row">
           <img
-            src="https://i.ibb.co/qss4KhF/handheld.jpg"
+            src="https://i.ibb.co/fpQFkgZ/alvaro-cvg-m-W8-IZd-X7n8-E-unsplash.jpg"
             className="slide_img col-lg-12"
             alt="Responsive img"
             
@@ -32,7 +32,7 @@ function Carousell() {
         </div>
         <div>
           <img
-              src="https://i.ibb.co/qss4KhF/handheld.jpg"
+              src="https://i.ibb.co/5TZLq4x/toa-heftiba-TVQFl9-R-MLQ-unsplash.jpg"
             className="slide_img col-lg-12"
             alt="Responsive img"
           />
@@ -40,7 +40,7 @@ function Carousell() {
         </div>
         <div>
           <img
-              src="https://i.ibb.co/qss4KhF/handheld.jpg"
+              src="https://i.ibb.co/5TZLq4x/toa-heftiba-TVQFl9-R-MLQ-unsplash.jpg"
             className="slide_img col-lg-12"
             alt="Responsive img"
           />
